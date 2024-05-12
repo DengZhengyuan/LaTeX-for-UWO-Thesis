@@ -1,5 +1,6 @@
-.DS_Store
-.bbl
-.nlo
-.nls
-.synctex.gz
+*.DS_Store
+*.bbl
+*.nlo
+*.nls
+*.aux
+*.synctex.gz
