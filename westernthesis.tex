@@ -1,0 +1,296 @@
+% Western University Thesis Template
+% By: Dr. Zhengyuan Deng, 2024
+
+\documentclass[12pt,
+              %  draft, % speed up compilation without images
+               oneside,
+               letterpaper]{report}
+% ---------------------------------------
+% fonts and encoding
+\usepackage[utf8]{inputenc} % Uses the utf8 input encoding
+\usepackage[T1]{fontenc} 
+% \usepackage{mathpple} % Palatino
+% \usepackage{mathpazo} % Palatino
+% font - Times New Roman
+\usepackage[spacing=.3em,
+            stretch=.2em,
+            shrink=.1em]{newtxtext}
+\usepackage{newtxmath}
+% ---------------------------------------
+% Citation, reference, and bibliography
+\usepackage[style=apa,
+            backend=biber,
+            uniquename=false,
+            uniquelist=false
+            ]{biblatex}
+\addbibresource{westernthesis.bib} % Imports bibliography file
+% hyper reference definition
+\usepackage[dvipsnames]{xcolor}
+% \definecolor{myColor}{RGB}{88, 44, 131} % purple
+\definecolor{myColor}{rgb}{0, 0, 0} % black
+\usepackage{hyperref}
+\hypersetup{colorlinks = true, 
+            urlcolor   = myColor, 
+            linkcolor  = myColor, 
+            citecolor  = myColor 
+            }
+% auto ref
+\def\equationautorefname~#1\null{Equation~(#1)\null}
+\def\chapterautorefname{Chapter}
+\def\sectionautorefname{Section}
+\def\subsectionautorefname{Section}
+\usepackage[byname]{smartref} % Smart cross-referencing
+% ---------------------------------------
+% math environment
+% \usepackage{amssymb} % For math symbols
+\usepackage{amsmath} % For typesetting math
+\usepackage{mathtools}
+\usepackage[group-separator={,},
+            group-digits=integer]{siunitx} % SI unit
+\usepackage[version=4]{mhchem} % chemical
+\usepackage{bm} % bold and italia
+\usepackage{cancel} % \cancelto
+\usepackage{esint} % kinds of integral signs
+\usepackage{physics} % for physics
+\AtBeginDocument{\RenewCommandCopy\qty\SI} % avoid conflict of \qty btw siunitx & physics
+\sisetup{
+  % range-phrase = \text{-}, 
+  range-units = single,
+  table-alignment-mode = format
+}
+\usepackage{xparse} % for physics
+\usepackage{mathrsfs} % \mathscr
+\usepackage{setspace} % line spacing
+
+% ---------------------------------------
+% table environments
+\usepackage{longtable} % Long tables
+\usepackage{rotating} % Rotate the figure or table
+\usepackage{booktabs}
+\usepackage{array} 
+% \usepackage{tablefootnote}
+\usepackage{multirow} % Multirow cells in tables
+% 
+\usepackage{enumitem} % Customizing lists
+
+% ---------------------------------------
+% figure environments
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+% \usepackage[nofiglist, figuresonly]{endfloat} % put figures at end of chapter
+
+% ---------------------------------------
+% code environments
+\usepackage{listings} 
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    % backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\scriptsize\ttfamily,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+
+% ---------------------------------------
+\newcommand{\newcheckmark}{\raisebox{0.6ex}{\scalebox{0.7}{$\sqrt{}$}}}
+\newcommand{\newcrossmark}{\scalebox{0.85}[1]{$\times$}}
+
+% ---------------------------------------
+% line space setting
+% To produce output with the desired line spacing, the argument of
+% \spacing should be multiplied by 5/6 = 0.8333, so that 1.5 spaced
+% corresponds to \spacing{1.25} and double spaced is \spacing{1.66}.
+\def\normalspacing{1.25} % default line spacing
+\spacing{1.25} % 1.5 spacing
+
+% ---------------------------------------
+% page margin setting
+\usepackage{geometry}
+\geometry{left=1.5in, right=1in, top=1.2in, bottom=1in}
+\usepackage{fancyhdr}
+% chapter title setting
+\usepackage{titlesec}
+\titleformat{\chapter}[display]{\onehalfspacing\normalfont\LARGE\bfseries}{\chaptertitlename\ \thechapter}{10pt}{\LARGE}
+\titlespacing*{\chapter}{0pt}{30pt}{30pt}
+\titlespacing*{\section}{0pt}{10pt}{0pt}
+\titlespacing*{\subsection}{0pt}{10pt}{0pt}
+\titlespacing*{\subsubsection}{0pt}{0pt}{0pt}
+\titlespacing*{\paragraph}{0pt}{0pt}{15pt}
+
+\setcounter{tocdepth}{3} % Number the subsubsection 
+\usepackage{mfirstuc} % Capitalize the first letter of a word
+
+% ---------------------------------------
+% numbering setting
+\makeatletter
+\numberwithin{figure}{chapter}
+
+\newenvironment{preliminary}%
+{
+  \pagestyle{plain}\pagenumbering{roman}
+} {
+  \pagenumbering{arabic}
+}
+
+\addtoreflist{chapter}
+
+% ---------------------------------------
+% theorem setting
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+
+% ---------------------------------------
+% Appendices environment
+\usepackage[titletoc]{appendix} 
+% \usepackage{appendix} 
+\usepackage{tocloft} % Customizing the table of contents
+\setlength{\cftchapnumwidth}{0pt}
+\renewcommand{\cftchappresnum}{\chaptername\ }
+\renewcommand{\cftchapaftersnum}{}
+\renewcommand{\cftchapaftersnumb}{\newline}
+\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}
+% ---------------------------------------
+% appendices setting
+\newcommand{\listappendixname}{List of Appendices}
+\newlistof{myappendices}{app}{\listappendixname}
+\newcommand{\myappendices}[1]{%
+\addcontentsline{app}{myappendices}{#1}\par}
+
+% ---------------------------------------
+% Titles of TOC setups
+% \renewcommand{\contentsname}{Table of Contents} % Table of contents title
+\renewcommand{\contentsname}{\hfill\bfseries\LARGE Table of Contents\hfill} 
+\renewcommand{\cftaftertoctitle}{\hfill}
+\renewcommand{\listtablename}{\hfill\bfseries\LARGE List of Tables} 
+\renewcommand{\cftafterlottitle}{\hfill}
+\renewcommand{\listfigurename}{\hfill\bfseries\LARGE List of Figures}
+\renewcommand{\cftafterloftitle}{\hfill}
+% \renewcommand{\listappendixname}{\hfill\bfseries\Large List of Appendices}
+\renewcommand{\listappendixname}{\LARGE\begin{center}\textbf{List of Appendices}\end{center}}
+\renewcommand{\cftafterloftitle}{\hfill}
+
+% ---------------------------------------
+% nomenclature setting
+\usepackage{nomencl}
+\makenomenclature
+% This code creates the groups
+\usepackage{etoolbox}
+\renewcommand\nomgroup[1]{%
+  \item[\bfseries
+  \ifstrequal{#1}{S}{Symbols}{%
+  \ifstrequal{#1}{B}{Subscripts}{%
+  \ifstrequal{#1}{G}{Symbols (greek letters and others)}{%
+  \ifstrequal{#1}{A}{Abbreviations}{}}}}%
+]}
+\renewcommand{\nomname}{\LARGE\begin{center}\textbf{List of Abbreviations, Symbols, and Nomenclature}\end{center}}%
+
+\nomlabelwidth=7.5mm
+
+% ---------------------------------------
+\usepackage{multicol}
+\setlength{\columnsep}{10mm}
+\newcommand{\nomunit}[1]{%
+\renewcommand{\nomentryend}{\hspace*{\fill}#1}}
+\renewcommand{\nompreamble}{\begin{multicols}{2}}
+\renewcommand{\nompostamble}{\end{multicols}}
+% ---------------------------------------
+% other settings
+\usepackage{silence} % silence warning when compiling
+\WarningFilter{fancyhdr}{\headheight is too small}
+
+% ------------------------------------------------------------------------------
+% 
+%                            DOCUMENT STARTS HERE
+% 
+% ------------------------------------------------------------------------------
+
+\begin{document}
+% ------------------------------------------------------------------------------
+% Preliminary Parts, includes: 
+% Abstract
+% Summary for Lay Audience
+% Co-Authorship Statement
+% Acknowledgements
+% Table of Contents
+% List of Figures
+% List of Tables
+% List of Appendices
+% List of Abbreviations, Symbols, and Nomenclature
+% They are edited in the corresponding files in the folder "preliminaries".
+% ---------------------------------------
+\input{preliminaries/preliminary.tex}
+% ---------------------------------------
+% End of the preliminary sections
+% ------------------------------------------------------------------------------
+% Set spacing of texts and equations for the main body of the thesis.
+% ---------------------------------------
+\setlength\parindent{2em} % paragraph indent
+\setlength{\parskip}{12pt} % paragraph spacing
+\setlength\bibitemsep{5pt} % bibliography spacing
+\setlength\jot{18pt} % equation spacing
+% \spacing{0.8333} % single spacing
+% \spacing{1.25} % 1.5 spacing
+\spacing{1.66} % double spacing
+% Set header and footer 
+\setlength{\headheight}{10pt} % space of header
+% \setlength{\headheight}{0pt} % space of header
+\pagestyle{fancy} % fancy page style
+\fancyhead{} % no header
+% \fancyfoot{} % no footer
+\renewcommand{\headrulewidth}{0pt} % no header rule
+\raggedbottom % bottom of page is ragged
+% ---------------------------------------
+% End of the main body settings.
+% ------------------------------------------------------------------------------
+% Main body of the thesis starts here.
+% ------------------------------------------------------------------------------
+% Include the chapters.
+% ---------------------------------------
+\include{chapters/intro.tex}
+\include{chapters/chapter_1.tex}
+% \include{chapters/chapter_2.tex}
+\include{chapters/conclusion.tex}
+% ---------------------------------------
+% End of the chapters.
+% ---------------------------------------
+% Include the appendices.
+% ---------------------------------------
+\begin{appendices}
+  \include{chapters/appendix_1.tex}
+\end{appendices}
+% ---------------------------------------
+% End of the appendices.
+% ---------------------------------------
+% CV
+% ---------------------------------------
+\addcontentsline{toc}{chapter}{Curriculum Vitae}
+\input{preliminaries/cv.tex}
+% ---------------------------------------
+% End of the CV.
+% ---------------------------------------
+\end{document}
+% ------------------------------------------------------------------------------
+%
+%                            DOCUMENT ENDS HERE
+%
+% ------------------------------------------------------------------------------

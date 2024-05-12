@@ -1,0 +1,21 @@
+
+\begin{thenomenclature} 
+\nomgroup{A}
+  \item [{CDF}]\begingroup Cumulative distribution function\nomeqref {0}\nompageref{ix}
+  \item [{CFB}]\begingroup Circulating fluidized bed\nomeqref {0}\nompageref{ix}
+  \item [{CFD}]\begingroup Computational fluid dynamics\nomeqref {0}\nompageref{ix}
+  \item [{FCC}]\begingroup Fluid catalytic cracking\nomeqref {0}\nompageref{ix}
+  \item [{PDF}]\begingroup Probability distribution function\nomeqref {0}\nompageref{ix}
+\nomgroup{B}
+  \item [{g}]\begingroup Gas phase\nomeqref {0}\nompageref{ix}
+  \item [{s}]\begingroup Solids phase\nomeqref {0}\nompageref{ix}
+\nomgroup{G}
+  \item [{$\Gamma$}]\begingroup Mass diffusivity, $\si{\kg/\m/\s}$\nomeqref {0}\nompageref{ix}
+  \item [{$\mu$}]\begingroup Viscosity, $\si{\kg/\m/\s}$\nomeqref {0}\nompageref{ix}
+  \item [{$\rho$}]\begingroup Density, $\si{\kg/\m^3}$\nomeqref {0}\nompageref{ix}
+\nomgroup{S}
+  \item [{$A$}]\begingroup Area, $\si{\m^2}$\nomeqref {0}\nompageref{ix}
+  \item [{$D$}]\begingroup Diameter, $\si{\m}$\nomeqref {0}\nompageref{ix}
+  \item [{$H$}]\begingroup Height, $\si{\m}$\nomeqref {0}\nompageref{ix}
+
+\end{thenomenclature}

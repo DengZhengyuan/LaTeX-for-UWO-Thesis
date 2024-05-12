@@ -1,0 +1,502 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{1}
+  \datalist[entry]{apa/apasortcite//global/global}
+    \entry{deng2017volumetric}{article}{}
+      \name{author}{4}{}{%
+        {{hash=773c34cd7eca55c9bd990b3a0008de86}{%
+           family={Deng},
+           familyi={D\bibinitperiod},
+           given={Zhengyuan},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=7ce14dd2056c98f62a33a36e085905db}{%
+           family={Xia},
+           familyi={X\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=81288c122971439b928146249a4cb5cd}{%
+           family={Long},
+           familyi={L\bibinitperiod},
+           given={Bingwen},
+           giveni={B\bibinitperiod}}}%
+        {{hash=eedaf020b0c8365df4294db4ed80258a}{%
+           family={Ding},
+           familyi={D\bibinitperiod},
+           given={Yigang},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{048f2435aa8cbfbc907855d7e6c0091b}
+      \strng{fullhash}{9e39c84b79e93ad518fb2fd842468bc5}
+      \strng{bibnamehash}{9e39c84b79e93ad518fb2fd842468bc5}
+      \strng{authorbibnamehash}{9e39c84b79e93ad518fb2fd842468bc5}
+      \strng{authornamehash}{048f2435aa8cbfbc907855d7e6c0091b}
+      \strng{authorfullhash}{9e39c84b79e93ad518fb2fd842468bc5}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Molecular Liquids}
+      \field{title}{Volumetric properties of diisopropyl ether with acetone at temperatures from {283.15 K} to {323.15 K}: An experimental and theoretical study}
+      \field{volume}{243}
+      \field{year}{2017}
+      \field{pages}{257\bibrangedash 264}
+      \range{pages}{8}
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global}
+    \entry{deng2017volumetric}{article}{}
+      \name{author}{4}{}{%
+        {{hash=773c34cd7eca55c9bd990b3a0008de86}{%
+           family={Deng},
+           familyi={D\bibinitperiod},
+           given={Zhengyuan},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=7ce14dd2056c98f62a33a36e085905db}{%
+           family={Xia},
+           familyi={X\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=81288c122971439b928146249a4cb5cd}{%
+           family={Long},
+           familyi={L\bibinitperiod},
+           given={Bingwen},
+           giveni={B\bibinitperiod}}}%
+        {{hash=eedaf020b0c8365df4294db4ed80258a}{%
+           family={Ding},
+           familyi={D\bibinitperiod},
+           given={Yigang},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{048f2435aa8cbfbc907855d7e6c0091b}
+      \strng{fullhash}{9e39c84b79e93ad518fb2fd842468bc5}
+      \strng{bibnamehash}{9e39c84b79e93ad518fb2fd842468bc5}
+      \strng{authorbibnamehash}{9e39c84b79e93ad518fb2fd842468bc5}
+      \strng{authornamehash}{048f2435aa8cbfbc907855d7e6c0091b}
+      \strng{authorfullhash}{9e39c84b79e93ad518fb2fd842468bc5}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Molecular Liquids}
+      \field{title}{Volumetric properties of diisopropyl ether with acetone at temperatures from {283.15 K} to {323.15 K}: An experimental and theoretical study}
+      \field{volume}{243}
+      \field{year}{2017}
+      \field{pages}{257\bibrangedash 264}
+      \range{pages}{8}
+    \endentry
+  \enddatalist
+\endrefsection
+
+\refsection{2}
+  \datalist[entry]{apa/apasortcite//global/global}
+    \entry{liujs2016}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=ce32660a36397ecd0d0506ee4d3b3258}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Jiangshan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {The University of Western Ontario}%
+      }
+      \list{location}{1}{%
+        {London, Ontario, Canada}%
+      }
+      \strng{namehash}{ce32660a36397ecd0d0506ee4d3b3258}
+      \strng{fullhash}{ce32660a36397ecd0d0506ee4d3b3258}
+      \strng{bibnamehash}{ce32660a36397ecd0d0506ee4d3b3258}
+      \strng{authorbibnamehash}{ce32660a36397ecd0d0506ee4d3b3258}
+      \strng{authornamehash}{ce32660a36397ecd0d0506ee4d3b3258}
+      \strng{authorfullhash}{ce32660a36397ecd0d0506ee4d3b3258}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Reactor Performances and Hydrodynamics of Various Gas-Solids Fluidized Beds}
+      \field{type}{phdthesis}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://ir.lib.uwo.ca/etd/3967/
+      \endverb
+      \verb{url}
+      \verb https://ir.lib.uwo.ca/etd/3967/
+      \endverb
+    \endentry
+    \entry{wang2014catalytic}{article}{}
+      \name{author}{5}{}{%
+        {{hash=fd010b240f4ac16fc35eb2ca9d6232da}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Chengxiu},
+           giveni={C\bibinitperiod}}}%
+        {{hash=3d33b99ab2b9fa2c7987e1d7f5873222}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Gang},
+           giveni={G\bibinitperiod}}}%
+        {{hash=587fc7043db94664772e13be32a293c0}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Chunyi},
+           giveni={C\bibinitperiod}}}%
+        {{hash=4c8fa4f21b134bfff40d14cf65c3f33d}{%
+           family={Barghi},
+           familyi={B\bibinitperiod},
+           given={Shahzad},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5bf83a00bfdd315f8453e0bca804e7d7}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Jesse},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ACS Publications}%
+      }
+      \strng{namehash}{56fff9c300d969a6b8824176283530a6}
+      \strng{fullhash}{4448566f4e6c4247fdb7830104b3b96d}
+      \strng{bibnamehash}{4448566f4e6c4247fdb7830104b3b96d}
+      \strng{authorbibnamehash}{4448566f4e6c4247fdb7830104b3b96d}
+      \strng{authornamehash}{56fff9c300d969a6b8824176283530a6}
+      \strng{authorfullhash}{4448566f4e6c4247fdb7830104b3b96d}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Industrial \& Engineering Chemistry Research}
+      \field{number}{16}
+      \field{title}{Catalytic ozone decomposition in a high density circulating fluidized bed riser}
+      \field{volume}{53}
+      \field{year}{2014}
+      \field{pages}{6613\bibrangedash 6623}
+      \range{pages}{11}
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global}
+    \entry{liujs2016}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=ce32660a36397ecd0d0506ee4d3b3258}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Jiangshan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {The University of Western Ontario}%
+      }
+      \list{location}{1}{%
+        {London, Ontario, Canada}%
+      }
+      \strng{namehash}{ce32660a36397ecd0d0506ee4d3b3258}
+      \strng{fullhash}{ce32660a36397ecd0d0506ee4d3b3258}
+      \strng{bibnamehash}{ce32660a36397ecd0d0506ee4d3b3258}
+      \strng{authorbibnamehash}{ce32660a36397ecd0d0506ee4d3b3258}
+      \strng{authornamehash}{ce32660a36397ecd0d0506ee4d3b3258}
+      \strng{authorfullhash}{ce32660a36397ecd0d0506ee4d3b3258}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Reactor Performances and Hydrodynamics of Various Gas-Solids Fluidized Beds}
+      \field{type}{phdthesis}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://ir.lib.uwo.ca/etd/3967/
+      \endverb
+      \verb{url}
+      \verb https://ir.lib.uwo.ca/etd/3967/
+      \endverb
+    \endentry
+    \entry{wang2014catalytic}{article}{}
+      \name{author}{5}{}{%
+        {{hash=fd010b240f4ac16fc35eb2ca9d6232da}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Chengxiu},
+           giveni={C\bibinitperiod}}}%
+        {{hash=3d33b99ab2b9fa2c7987e1d7f5873222}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Gang},
+           giveni={G\bibinitperiod}}}%
+        {{hash=587fc7043db94664772e13be32a293c0}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Chunyi},
+           giveni={C\bibinitperiod}}}%
+        {{hash=4c8fa4f21b134bfff40d14cf65c3f33d}{%
+           family={Barghi},
+           familyi={B\bibinitperiod},
+           given={Shahzad},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5bf83a00bfdd315f8453e0bca804e7d7}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Jesse},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ACS Publications}%
+      }
+      \strng{namehash}{56fff9c300d969a6b8824176283530a6}
+      \strng{fullhash}{4448566f4e6c4247fdb7830104b3b96d}
+      \strng{bibnamehash}{4448566f4e6c4247fdb7830104b3b96d}
+      \strng{authorbibnamehash}{4448566f4e6c4247fdb7830104b3b96d}
+      \strng{authornamehash}{56fff9c300d969a6b8824176283530a6}
+      \strng{authorfullhash}{4448566f4e6c4247fdb7830104b3b96d}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Industrial \& Engineering Chemistry Research}
+      \field{number}{16}
+      \field{title}{Catalytic ozone decomposition in a high density circulating fluidized bed riser}
+      \field{volume}{53}
+      \field{year}{2014}
+      \field{pages}{6613\bibrangedash 6623}
+      \range{pages}{11}
+    \endentry
+  \enddatalist
+\endrefsection
+
+\refsection{4}
+  \datalist[entry]{apa/apasortcite//global/global}
+    \entry{deng2017volumetric}{article}{}
+      \name{author}{4}{}{%
+        {{hash=773c34cd7eca55c9bd990b3a0008de86}{%
+           family={Deng},
+           familyi={D\bibinitperiod},
+           given={Zhengyuan},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=7ce14dd2056c98f62a33a36e085905db}{%
+           family={Xia},
+           familyi={X\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=81288c122971439b928146249a4cb5cd}{%
+           family={Long},
+           familyi={L\bibinitperiod},
+           given={Bingwen},
+           giveni={B\bibinitperiod}}}%
+        {{hash=eedaf020b0c8365df4294db4ed80258a}{%
+           family={Ding},
+           familyi={D\bibinitperiod},
+           given={Yigang},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{048f2435aa8cbfbc907855d7e6c0091b}
+      \strng{fullhash}{9e39c84b79e93ad518fb2fd842468bc5}
+      \strng{bibnamehash}{9e39c84b79e93ad518fb2fd842468bc5}
+      \strng{authorbibnamehash}{9e39c84b79e93ad518fb2fd842468bc5}
+      \strng{authornamehash}{048f2435aa8cbfbc907855d7e6c0091b}
+      \strng{authorfullhash}{9e39c84b79e93ad518fb2fd842468bc5}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Molecular Liquids}
+      \field{title}{Volumetric properties of diisopropyl ether with acetone at temperatures from {283.15 K} to {323.15 K}: An experimental and theoretical study}
+      \field{volume}{243}
+      \field{year}{2017}
+      \field{pages}{257\bibrangedash 264}
+      \range{pages}{8}
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global}
+    \entry{deng2017volumetric}{article}{}
+      \name{author}{4}{}{%
+        {{hash=773c34cd7eca55c9bd990b3a0008de86}{%
+           family={Deng},
+           familyi={D\bibinitperiod},
+           given={Zhengyuan},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=7ce14dd2056c98f62a33a36e085905db}{%
+           family={Xia},
+           familyi={X\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=81288c122971439b928146249a4cb5cd}{%
+           family={Long},
+           familyi={L\bibinitperiod},
+           given={Bingwen},
+           giveni={B\bibinitperiod}}}%
+        {{hash=eedaf020b0c8365df4294db4ed80258a}{%
+           family={Ding},
+           familyi={D\bibinitperiod},
+           given={Yigang},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{048f2435aa8cbfbc907855d7e6c0091b}
+      \strng{fullhash}{9e39c84b79e93ad518fb2fd842468bc5}
+      \strng{bibnamehash}{9e39c84b79e93ad518fb2fd842468bc5}
+      \strng{authorbibnamehash}{9e39c84b79e93ad518fb2fd842468bc5}
+      \strng{authornamehash}{048f2435aa8cbfbc907855d7e6c0091b}
+      \strng{authorfullhash}{9e39c84b79e93ad518fb2fd842468bc5}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Molecular Liquids}
+      \field{title}{Volumetric properties of diisopropyl ether with acetone at temperatures from {283.15 K} to {323.15 K}: An experimental and theoretical study}
+      \field{volume}{243}
+      \field{year}{2017}
+      \field{pages}{257\bibrangedash 264}
+      \range{pages}{8}
+    \endentry
+  \enddatalist
+\endrefsection
+
+\refsection{5}
+  \datalist[entry]{apa/apasortcite//global/global}
+    \entry{deng2017volumetric}{article}{}
+      \name{author}{4}{}{%
+        {{hash=773c34cd7eca55c9bd990b3a0008de86}{%
+           family={Deng},
+           familyi={D\bibinitperiod},
+           given={Zhengyuan},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=7ce14dd2056c98f62a33a36e085905db}{%
+           family={Xia},
+           familyi={X\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=81288c122971439b928146249a4cb5cd}{%
+           family={Long},
+           familyi={L\bibinitperiod},
+           given={Bingwen},
+           giveni={B\bibinitperiod}}}%
+        {{hash=eedaf020b0c8365df4294db4ed80258a}{%
+           family={Ding},
+           familyi={D\bibinitperiod},
+           given={Yigang},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{048f2435aa8cbfbc907855d7e6c0091b}
+      \strng{fullhash}{9e39c84b79e93ad518fb2fd842468bc5}
+      \strng{bibnamehash}{9e39c84b79e93ad518fb2fd842468bc5}
+      \strng{authorbibnamehash}{9e39c84b79e93ad518fb2fd842468bc5}
+      \strng{authornamehash}{048f2435aa8cbfbc907855d7e6c0091b}
+      \strng{authorfullhash}{9e39c84b79e93ad518fb2fd842468bc5}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Molecular Liquids}
+      \field{title}{Volumetric properties of diisopropyl ether with acetone at temperatures from {283.15 K} to {323.15 K}: An experimental and theoretical study}
+      \field{volume}{243}
+      \field{year}{2017}
+      \field{pages}{257\bibrangedash 264}
+      \range{pages}{8}
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global}
+    \entry{deng2017volumetric}{article}{}
+      \name{author}{4}{}{%
+        {{hash=773c34cd7eca55c9bd990b3a0008de86}{%
+           family={Deng},
+           familyi={D\bibinitperiod},
+           given={Zhengyuan},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=7ce14dd2056c98f62a33a36e085905db}{%
+           family={Xia},
+           familyi={X\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=81288c122971439b928146249a4cb5cd}{%
+           family={Long},
+           familyi={L\bibinitperiod},
+           given={Bingwen},
+           giveni={B\bibinitperiod}}}%
+        {{hash=eedaf020b0c8365df4294db4ed80258a}{%
+           family={Ding},
+           familyi={D\bibinitperiod},
+           given={Yigang},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{048f2435aa8cbfbc907855d7e6c0091b}
+      \strng{fullhash}{9e39c84b79e93ad518fb2fd842468bc5}
+      \strng{bibnamehash}{9e39c84b79e93ad518fb2fd842468bc5}
+      \strng{authorbibnamehash}{9e39c84b79e93ad518fb2fd842468bc5}
+      \strng{authornamehash}{048f2435aa8cbfbc907855d7e6c0091b}
+      \strng{authorfullhash}{9e39c84b79e93ad518fb2fd842468bc5}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Molecular Liquids}
+      \field{title}{Volumetric properties of diisopropyl ether with acetone at temperatures from {283.15 K} to {323.15 K}: An experimental and theoretical study}
+      \field{volume}{243}
+      \field{year}{2017}
+      \field{pages}{257\bibrangedash 264}
+      \range{pages}{8}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

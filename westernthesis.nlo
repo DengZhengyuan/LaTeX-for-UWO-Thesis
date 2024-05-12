@@ -1,0 +1,13 @@
+\nomenclatureentry{S$H$@[{$H$}]\begingroup Height, $\si{\m}$\nomeqref {0}|nompageref}{x}
+\nomenclatureentry{S$A$@[{$A$}]\begingroup Area, $\si{\m^2}$\nomeqref {0}|nompageref}{x}
+\nomenclatureentry{S$D$@[{$D$}]\begingroup Diameter, $\si{\m}$\nomeqref {0}|nompageref}{x}
+\nomenclatureentry{G$\Gamma$@[{$\Gamma$}]\begingroup Mass diffusivity, $\si{\kg/\m/\s}$\nomeqref {0}|nompageref}{x}
+\nomenclatureentry{G$\rho$@[{$\rho$}]\begingroup Density, $\si{\kg/\m^3}$\nomeqref {0}|nompageref}{x}
+\nomenclatureentry{G$\mu$@[{$\mu$}]\begingroup Viscosity, $\si{\kg/\m/\s}$\nomeqref {0}|nompageref}{x}
+\nomenclatureentry{Bg@[{g}]\begingroup Gas phase\nomeqref {0}|nompageref}{x}
+\nomenclatureentry{Bs@[{s}]\begingroup Solids phase\nomeqref {0}|nompageref}{x}
+\nomenclatureentry{ACFB@[{CFB}]\begingroup Circulating fluidized bed\nomeqref {0}|nompageref}{x}
+\nomenclatureentry{ACFD@[{CFD}]\begingroup Computational fluid dynamics\nomeqref {0}|nompageref}{x}
+\nomenclatureentry{APDF@[{PDF}]\begingroup Probability distribution function\nomeqref {0}|nompageref}{x}
+\nomenclatureentry{ACDF@[{CDF}]\begingroup Cumulative distribution function\nomeqref {0}|nompageref}{x}
+\nomenclatureentry{AFCC@[{FCC}]\begingroup Fluid catalytic cracking\nomeqref {0}|nompageref}{x}
