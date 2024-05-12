@@ -34,7 +34,7 @@
             linkcolor  = myColor, 
             citecolor  = myColor 
             }
-% auto ref
+% auto reference
 \def\equationautorefname~#1\null{Equation~(#1)\null}
 \def\chapterautorefname{Chapter}
 \def\sectionautorefname{Section}
@@ -52,7 +52,6 @@
 \usepackage{cancel} % \cancelto
 \usepackage{esint} % kinds of integral signs
 \usepackage{physics} % for physics
-\AtBeginDocument{\RenewCommandCopy\qty\SI} % avoid conflict of \qty btw siunitx & physics
 \sisetup{
   % range-phrase = \text{-}, 
   range-units = single,
@@ -61,6 +60,7 @@
 \usepackage{xparse} % for physics
 \usepackage{mathrsfs} % \mathscr
 \usepackage{setspace} % line spacing
+\AtBeginDocument{\RenewCommandCopy\qty\SI} % avoid conflict of \qty btw siunitx & physics
 
 % ---------------------------------------
 % table environments
@@ -70,7 +70,6 @@
 \usepackage{array} 
 % \usepackage{tablefootnote}
 \usepackage{multirow} % Multirow cells in tables
-% 
 \usepackage{enumitem} % Customizing lists
 
 % ---------------------------------------
@@ -126,6 +125,8 @@
 \usepackage{geometry}
 \geometry{left=1.5in, right=1in, top=1.2in, bottom=1in}
 \usepackage{fancyhdr}
+
+% ---------------------------------------
 % chapter title setting
 \usepackage{titlesec}
 \titleformat{\chapter}[display]{\onehalfspacing\normalfont\LARGE\bfseries}{\chaptertitlename\ \thechapter}{10pt}{\LARGE}
@@ -139,7 +140,7 @@
 \usepackage{mfirstuc} % Capitalize the first letter of a word
 
 % ---------------------------------------
-% numbering setting
+% Page numbering setting
 \makeatletter
 \numberwithin{figure}{chapter}
 
@@ -153,7 +154,7 @@
 \addtoreflist{chapter}
 
 % ---------------------------------------
-% theorem setting
+% theorem environments
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{lemma}[theorem]{Lemma}
 \newtheorem{proposition}[theorem]{Proposition}
@@ -197,22 +198,24 @@
 \usepackage{etoolbox}
 \renewcommand\nomgroup[1]{%
   \item[\bfseries
-  \ifstrequal{#1}{S}{Symbols}{%
-  \ifstrequal{#1}{B}{Subscripts}{%
-  \ifstrequal{#1}{G}{Symbols (greek letters and others)}{%
-  \ifstrequal{#1}{A}{Abbreviations}{}}}}%
+  \ifstrequal{#1}{S}{Symbols}{ % for symbols
+  \ifstrequal{#1}{B}{Subscripts}{ % for subscripts
+  \ifstrequal{#1}{G}{Symbols (greek letters and others)}{ % for greek letters
+  \ifstrequal{#1}{A}{Abbreviations}{}}}} % for abbreviations
 ]}
 \renewcommand{\nomname}{\LARGE\begin{center}\textbf{List of Abbreviations, Symbols, and Nomenclature}\end{center}}%
-
-\nomlabelwidth=7.5mm
+% ---------------------------------------
+% nomenclature setting of the style and layout
+\usepackage{multicol}
+\nomlabelwidth=7.5mm % width of the nomenclature label
+\setlength{\columnsep}{10mm} % column separation distance
+\newcommand{\nomunit}[1]{ % 
+  \renewcommand{\nomentryend}{\hspace*{\fill}#1}
+} % nomenclature unit
+\renewcommand{\nompreamble}{\begin{multicols}{2}} % two columns
+\renewcommand{\nompostamble}{\end{multicols}}
 
 % ---------------------------------------
-\usepackage{multicol}
-\setlength{\columnsep}{10mm}
-\newcommand{\nomunit}[1]{%
-\renewcommand{\nomentryend}{\hspace*{\fill}#1}}
-\renewcommand{\nompreamble}{\begin{multicols}{2}}
-\renewcommand{\nompostamble}{\end{multicols}}
 % ---------------------------------------
 % other settings
 \usepackage{silence} % silence warning when compiling
