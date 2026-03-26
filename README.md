@@ -74,8 +74,14 @@ new appendix:
 3. Add a matching `\include{chapters/appendix_2}` line below `\appendix` in
    `westernthesis.tex`.
 
-Appendices are listed automatically in the main table of contents. You do not
-need to maintain a separate "List of Appendices" by hand.
+Appendix chapters are listed automatically in both:
+
+- the main table of contents, together with appendix sections/subsections at
+  the normal `tocdepth`; and
+- a separate `List of Appendices` page that shows appendix chapter titles only.
+
+Use `\appendixchapter{...}` at the top of each appendix file instead of a plain
+`\chapter{...}` so the appendix chapter is written to both lists.
 
 If you do not need appendices, comment out the `\appendix` line and the
 appendix `\include{...}` lines in `westernthesis.tex`.

@@ -164,6 +164,22 @@
 \renewcommand{\cftafterlottitle}{\hfill}
 \renewcommand{\listfigurename}{\hfill\bfseries\LARGE List of Figures}
 \renewcommand{\cftafterloftitle}{\hfill}
+\newcommand{\listappendicesname}{List of Appendices}
+\makeatletter
+\newcommand{\listofappendices}{%
+  \LARGE\begin{center}\textbf{\listappendicesname}\end{center}\normalsize
+  \@starttoc{apc}%
+}
+\makeatother
+\NewDocumentCommand{\appendixchapter}{o m}{%
+  \IfNoValueTF{#1}{%
+    \chapter{#2}%
+    \addcontentsline{apc}{chapter}{\protect\numberline{\thechapter}#2}%
+  }{%
+    \chapter[#1]{#2}%
+    \addcontentsline{apc}{chapter}{\protect\numberline{\thechapter}#1}%
+  }%
+}
 
 % ------------------------------------------------------------------------------
 % Nomenclature

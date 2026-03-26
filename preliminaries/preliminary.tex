@@ -58,7 +58,12 @@
 \listoftables
 \newpage
 % ---------------------------------------------------
-% Appendices are listed automatically in the main table of contents.
+\phantomsection
+\addcontentsline{toc}{chapter}{List of Appendices}
+\listofappendices
+\newpage
+% Appendix chapters are listed separately above, while appendix sections and
+% subsections continue to appear in the main table of contents.
 \phantomsection
 \addcontentsline{toc}{chapter}{List of Abbreviations, Symbols, and Nomenclature}
 \input{preliminaries/nomecl.tex}
