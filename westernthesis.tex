@@ -128,6 +128,19 @@
 \newcommand{\preliminaryspacing}{\onehalfspacing}
 \newcommand{\bodytextspacing}{\doublespacing}
 
+\fancypagestyle{preliminary}{%
+  \fancyhf{}%
+  \fancyfoot[C]{\thepage}%
+  \renewcommand{\headrulewidth}{0pt}%
+  \renewcommand{\footrulewidth}{0pt}%
+}
+\fancypagestyle{thesisbody}{%
+  \fancyhf{}%
+  \fancyhead[R]{\thepage}%
+  \renewcommand{\headrulewidth}{0pt}%
+  \renewcommand{\footrulewidth}{0pt}%
+}
+
 \titleformat{\chapter}[display]
   {\onehalfspacing\normalfont\LARGE\bfseries}
   {\chaptertitlename\ \thechapter}
@@ -143,9 +156,11 @@
 \numberwithin{figure}{chapter}
 \addtoreflist{chapter}
 
+\makeatletter
 \newenvironment{preliminary}
-  {\pagestyle{plain}\pagenumbering{roman}}
-  {\pagenumbering{arabic}}
+  {\pagestyle{preliminary}\pagenumbering{roman}}
+  {\clearpage\pagenumbering{arabic}\pagestyle{thesisbody}\global\let\ps@plain\ps@thesisbody}
+\makeatother
 
 % ------------------------------------------------------------------------------
 % Theorem environments
@@ -233,10 +248,8 @@
 \setlength\jot{18pt}
 \bodytextspacing
 
-\setlength{\headheight}{10pt}
-\pagestyle{fancy}
-\fancyhead{}
-\renewcommand{\headrulewidth}{0pt}
+\setlength{\headheight}{15pt}
+\pagestyle{thesisbody}
 \raggedbottom
 
 \include{chapters/intro}
